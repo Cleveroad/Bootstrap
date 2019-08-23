@@ -1,0 +1,60 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply from: '../main_jcenter.settings.gradle'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion as Integer
+    buildToolsVersion rootProject.ext.buildToolsVersion as String
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion rootProject.ext.compileSdkVersion as Integer
+        versionCode libraryVersionCode
+        versionName libraryVersion
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            debuggable true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    implementation supportDependencies.lifecycleExtension
+    implementation supportDependencies.design
+    implementation kotlinDependencies.jdk
+
+    // rx
+    implementation rxjava2Dependencies.rxkotlin
+    implementation rxjava2Dependencies.rxandroid
+
+    // Phone mask
+    implementation 'com.redmadrobot:inputmask:3.4.4'
+
+    implementation 'com.googlecode.libphonenumber:libphonenumber:8.10.1'
+
+    // bootstrap
+    implementation project(':kotlin-core')
+    implementation project(':kotlin-ext')
+
+}
+
+repositories {
+    mavenCentral()
+}

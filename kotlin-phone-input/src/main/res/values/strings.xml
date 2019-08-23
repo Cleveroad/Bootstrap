@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NationalFlags</string>
+    <string name="no">no</string>
+    <string name="no_search_results">No search results</string>
+    <string name="country">Country</string>
+    <string name="search">Search</string>
+    <string name="code">Code</string>
+    <string name="enter_phone">Enter phone</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_text_color_primary">@android:color/black</color>
+    <color name="theme_text_color_secondary">@android:color/black</color>
+    <color name="theme_color_primary">#ff01a3df</color>
+    <color name="theme_color_primary_dark">#ff0182b4</color>
+    <color name="theme_color_accent">#ff00a5e2</color>
+    <color name="theme_color_background">#ffe3e3e3</color>
+    <color name="theme_color_divider">#ffb6b6b6</color>
+</resources>

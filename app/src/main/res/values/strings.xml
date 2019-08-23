@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Bootstrap</string>
+    <string name="name">name</string>
+    <string name="email">email</string>
+    <string name="phone">phone</string>
+    <string name="password">password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="validate_name">validate name</string>
+    <string name="validate_email">validate email</string>
+    <string name="validate_phone">validate phone</string>
+    <string name="validate_match_password">validate match password</string>
+    <string name="validate_password">validate password</string>
+    <string name="correct">correct</string>
+    <string name="error">error</string>
+    <string name="show_validator_example">show validation example</string>
+    <string name="gps_example">Gps Example</string>
+    <string name="ffmpeg_example">FFMpeg Example</string>
+    <string name="ffmpeg_pick_directory">Pick directory</string>
+    <string name="ffmpeg_pick_file">Pick file</string>
+    <string name="ffmpeg_pick__overlay_file">Pick overlay picture</string>
+    <string name="ffmpeg_get_thumbnails">Get thumbnails</string>
+    <string name="ffmpeg_compress_video">Compress video</string>
+    <string name="ffmpeg_enter_output_file_name">Enter output file name</string>
+
+    <string name="compress_image">Try compress image</string>
+    <string name="pick_image">Pick image</string>
+    <string name="show_phone_view_example">show phone view example</string>
+    <string name="auth_example">Auth Example</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+
+    <string name="facebook_app_id" translatable="false">YOUR_FACEBOOK_ID</string>
+    <string name="fb_login_protocol_scheme" translatable="false">YOUR_FACEBOOK_PROTOCOL_SCHEME</string>
+
+    <string name="linkedin">LinkedIn</string>
+    <string name="multi_select_example">Multi Select example</string>
+</resources>

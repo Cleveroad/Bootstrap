@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">kotlin-gps</string>
+    <string name="allow">Allow</string>
+    <string name="permission_denied">To continue (using the app) provide permission to location data</string>
+    <string name="enable_gps">To mark yourself as "Available now" and accept session requests, please allow the app to share your location in the settings for your device.</string>
+    <string name="gps">GPS</string>
+    <string name="track_location_notification">Tracking your location</string>
+</resources>

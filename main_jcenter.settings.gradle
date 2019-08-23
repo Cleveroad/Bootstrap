@@ -1,0 +1,4 @@
+ext {
+    libraryVersionCode = 30
+    libraryVersion = '2.0.0'
+}

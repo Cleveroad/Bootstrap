@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/google" />
+
+    <Button
+        android:id="@+id/bFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/facebook" />
+
+
+    <Button
+        android:id="@+id/bTwitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/twitter" />
+
+    <Button
+        android:id="@+id/bLinkedIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/linkedin" />
+
+</LinearLayout>
