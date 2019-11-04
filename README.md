@@ -2,7 +2,37 @@
 
 ## Meet Kotlin Bootstrap by Cleveroad
 
-This is tutorial about android bootstrap library.
+This is tutorial about android bootstrap library. This set of libraries is designed to help developers accomplish many various tasks easier and faster.
+
+### Kotlin Auth
+The library allowing to implement authorization via social networks in apps. Facebook, Google, LinkedIn, and Twitter are supported.
+
+### Kotlin Core
+The library contains implementations of basic classes of an Android application to build the app’s architecture faster. Kotlin Core has implementations for Activity, Fragment, AndroidViewModel, DialogFragment, ArrayAdapter. This library has the utils directory storing a lot of helper classes to work with images, file system, internet, etc.
+
+### Kotlin Extensions
+A set of extension functions making life easier for Android developers. 
+
+### Kotlin GPS
+This library is designed to help you implement user geoposition tracking via GPS. Work with geolocation is implemented in the foreground service, which also allows to track the user's location in the background.
+
+### Kotlin Permissionrequest
+Android application has to request permission to access confidential user data. This library enables you to quickly implement the logic necessary for requesting access to user data and certain system features as well.
+
+### Kotlin PhoneInput
+This library is an implementation of Custom ViewGroup which makes it easy and fast to implement fields for entering a phone number. The library can determine the country code. Phone numbers are formatted automatically depending on a chosen country. 
+
+### Kotlin RxBus
+RxBus is an excellent solution allowing objects with various lifecycles and placed on different hierarchy levels to communicate with each other. It’s based on RxJava 2.
+
+### Kotlin Validators
+This library is designed for validation of phone number fields, passwords, emails, dates, and names. There is a configuration of templates for validation, error descriptions and more.
+
+### Kotlin ffmpeg thumbnails
+The wrapper library over ffmpeg that’s intended for splitting video into pictures (preview).
+
+### Kotlin ffmpeg video compress
+The wrapper library over ffmpeg that’s designed to compress the size of a video file.
 
 ## Setup and usage
 ### Installation
