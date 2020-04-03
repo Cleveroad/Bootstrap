@@ -22,6 +22,7 @@ import com.cleveroad.bootstrap.kotlin_ffmpeg_video_compress.Constants.VIDEO_CODE
 import com.cleveroad.bootstrap.kotlin_ffmpeg_video_compress.Constants.VIDEO_MP4
 import com.cleveroad.bootstrap.kotlin_ffmpeg_video_compress.Constants.VIDEO_RATE
 import com.cleveroad.bootstrap.kotlin_ffmpeg_video_compress.FFmpegHelper.execFFmpegBinary
+import com.cleveroad.bootstrap.kotlin_ffmpeg_video_compress.FFmpegHelper.killProcess
 import com.cleveroad.bootstrap.kotlin_ffmpeg_video_compress.TimeUtils.timeToMs
 import com.cleveroad.bootstrap.kotlin_ffmpeg_video_compress.types.PresetType
 import com.cleveroad.bootstrap.kotlin_ffmpeg_video_compress.types.StrictType
@@ -192,6 +193,13 @@ class CompressVideoBuilder private constructor(private val context: Context) {
                                 }
                             }, onFailure)
                 })
+    }
+
+    /**
+     * Cancel ffmpeg command
+     */
+    fun cancel() {
+        killProcess()
     }
 
 
