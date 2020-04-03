@@ -7,6 +7,7 @@ import io.reactivex.BackpressureStrategy
 import io.reactivex.Flowable
 import nl.bravobit.ffmpeg.ExecuteBinaryResponseHandler
 import nl.bravobit.ffmpeg.FFmpeg
+import nl.bravobit.ffmpeg.FFtask
 
 
 object FFmpegHelper {
@@ -29,12 +30,16 @@ object FFmpegHelper {
                 }
             }, BackpressureStrategy.BUFFER)
 
+    private var ffmpeg: FFmpeg? = null
+    private var ffTask: FFtask? = null
+
     fun execFFmpegBinary(command: Array<String>, context: Context, videoLengthInMillis: Long? = null) =
             Flowable.fromCallable { FFmpeg.getInstance(context) }
                     .flatMap { checkIsSupported(it) }
-                    .flatMap { ffmpeg ->
+                    .flatMap {
                         Flowable.create<Long>({ emit ->
-                            ffmpeg.execute(command, object : ExecuteBinaryResponseHandler() {
+                            ffmpeg = it
+                            ffTask = it.execute(command, object : ExecuteBinaryResponseHandler() {
                                 override fun onFailure(s: String?) = emit.onError(Throwable(s))
 
                                 override fun onSuccess(s: String?) {
@@ -57,4 +62,10 @@ object FFmpegHelper {
 
                         }, BackpressureStrategy.LATEST)
                     }
+
+    fun killProcess() {
+        ffmpeg?.apply {
+            killRunningProcesses(ffTask)
+        }
+    }
 }
