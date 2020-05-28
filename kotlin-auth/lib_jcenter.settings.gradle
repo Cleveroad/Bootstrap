@@ -1,0 +1,13 @@
+apply from: '../main_jcenter.settings.gradle'
+
+ext {
+    bintrayRepo = 'bootstrap'
+    bintrayName = 'kotlin-auth'
+
+    publishedGroupId = 'com.cleveroad.bootstrap'
+    libraryName = 'kotlin-auth'
+    artifact = 'kotlin-auth'
+
+    libraryDescription = 'Kotlin auth functions'
+
+}

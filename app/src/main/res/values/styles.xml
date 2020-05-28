@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="PhoneTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="textInputStyle">@style/Widget.MyApp.TextInputLayout</item>
+    </style>
+
+    <style name="Widget.MyApp.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextAppearance">@style/TextAppearance.MyApp.Hint</item>
+        <item name="hintTextColor">@color/colorAccent</item>
+        <item name="errorTextAppearance">@style/TextAppearance.MyApp.Error</item>
+        <item name="errorTextColor">@android:color/holo_orange_dark</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.MyApp.TextInputEditText.OutlinedBox</item>
+        <item name="android:textColorHint">@color/colorPrimary</item>
+    </style>
+
+    <style name="ThemeOverlay.MyApp.TextInputEditText.OutlinedBox" parent="ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="editTextStyle">@style/Widget.MyApp.TextInputEditText.OutlinedBox</item>
+        <item name="android:editTextColor">@android:color/holo_green_dark</item>
+    </style>
+
+    <style name="Widget.MyApp.TextInputEditText.OutlinedBox" parent="Base.Widget.MaterialComponents.TextInputEditText">
+        <item name="android:textAppearance">@style/TextAppearance.AppTheme.Subtitle1</item>
+        <item name="android:textColorHint">@color/colorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.Error" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/aref_ruqaa</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.Hint" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <!--fontFamily same textAppearance for edit text-->
+    </style>
+
+    <style name="TextAppearance.AppTheme.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/aclonica</item>
+    </style>
+
+</resources>

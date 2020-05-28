@@ -1,0 +1,80 @@
+apply plugin: 'com.android.library'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply from: 'lib_jcenter.settings.gradle'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion as Integer
+    buildToolsVersion rootProject.ext.buildToolsVersion as String
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion as Integer
+        targetSdkVersion rootProject.ext.compileSdkVersion as Integer
+        versionCode libraryVersionCode
+        versionName libraryVersion
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    androidExtensions {
+        experimental = true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':kotlin-ext')
+    implementation project(':kotlin-core')
+
+    // common
+    implementation supportDependencies.lifecycleExtension
+    implementation supportDependencies.appCompat
+    implementation kotlinDependencies.jdk
+
+    // rx java 2
+    implementation rxJava3Dependencies.rxjava
+
+    // Google Auth
+    implementation playServiceDependencies.play_services_auth
+
+    // Facebook Auth
+    implementation facebookDependencies.login
+
+    // Retrofit
+    implementation retrofitDependencies.jackson_converter
+    implementation retrofitDependencies.retrofit
+    implementation retrofitDependencies.adapter_rxjava
+
+    implementation("com.squareup.okhttp3:okhttp:4.0.0")
+
+    // Jackson
+    implementation jacksonDependencies.jackson_annotations
+    implementation jacksonDependencies.jackson_databind
+
+    // LoggingInterceptor
+    implementation('com.github.ihsanbal:LoggingInterceptor:3.0.0') {
+        exclude group: 'org.json', module: 'json'
+    }
+}
+
+//Add these lines to publish library to bintray
+//Place it at the end of the file
+apply from: '../installv1.gradle'
+//https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+apply from: '../bintrayv1.gradle'
+// https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle

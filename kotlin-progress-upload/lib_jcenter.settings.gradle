@@ -1,0 +1,11 @@
+apply from: '../main_jcenter.settings.gradle'
+ext {
+    bintrayRepo = 'bootstrap'
+    bintrayName = 'kotlin-progress-upload'
+
+    publishedGroupId = 'com.cleveroad.bootstrap'
+    libraryName = 'kotlin-progress-upload'
+    artifact = 'kotlin-progress-upload'
+
+    libraryDescription = 'Kotlin Progress Upload'
+}

@@ -1,0 +1,12 @@
+apply from: '../main_jcenter.settings.gradle'
+ext {
+    bintrayRepo = 'bootstrap'
+    bintrayName = 'kotlin-core'
+
+    publishedGroupId = 'com.cleveroad.bootstrap'
+    libraryName = 'kotlin-core'
+    artifact = 'kotlin-core'
+
+    libraryDescription = 'Kotlin core functions'
+
+}

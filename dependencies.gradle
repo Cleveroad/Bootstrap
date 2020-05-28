@@ -1,0 +1,132 @@
+ext {
+    appCompat = "1.1.0-alpha05"
+    ktx = "1.0.0"
+    exifinterface = "1.0.0"
+    constraintlayout = "1.1.3"
+    material = "1.1.0-alpha06"
+
+    archVersion = '2.0.0'
+    supportDependencies = [
+            appCompat         : "androidx.appcompat:appcompat:$appCompat",
+            ktx               : "androidx.core:core-ktx:$ktx",
+            constraintlayout  : "androidx.constraintlayout:constraintlayout:$constraintlayout",
+            recyclerView      : "androidx.recyclerview:recyclerview:$appCompat",
+            design            : "com.google.android.material:material:$material",
+            lifecycleExtension: "androidx.lifecycle:lifecycle-extensions:$archVersion",
+            exifinterface     : "androidx.exifinterface:exifinterface:$exifinterface"
+    ]
+
+    playServicesBase = '17.0.0'
+    playServicesLocation = '16.0.0'
+    playServiceDependencies = [
+            play_services_base    : "com.google.android.gms:play-services-base:$playServicesBase",
+            play_services_auth    : "com.google.android.gms:play-services-auth:$playServicesBase",
+            play_services_location: "com.google.android.gms:play-services-location:$playServicesLocation"
+    ]
+
+    kotlinDependencies = [
+            jdk: "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    ]
+
+    bootstrap_version = '1.0.8'
+    bootstrapDependencies = [
+            core             : "com.cleveroad.bootstrap:kotlin-core:$bootstrap_version",
+            validators       : "com.cleveroad.bootstrap:kotlin-validators:$bootstrap_version",
+            rx_bus           : "com.cleveroad.bootstrap:kotlin-rx-bus:$bootstrap_version",
+            permissionrequest: "com.cleveroad.bootstrap:kotlin-permissionrequest:$bootstrap_version"
+    ]
+
+    junit = "4.12"
+    runner = "1.1.0"
+    espresso_core = "3.1.0"
+    testsDependencies = [
+            junit        : "junit:junit:$junit",
+            runner       : "androidx.test:runner:$runner",
+            espresso_core: "androidx.test.espresso:espresso-core:$espresso_core"
+    ]
+
+    rxjava = "3.0.4"
+    rxkotlin = "3.0.0"
+    rxandroid = "3.0.0"
+    rxJava3Dependencies = [
+            rxjava   : "io.reactivex.rxjava3:rxjava:$rxjava",
+            rxkotlin : "io.reactivex.rxjava3:rxkotlin:$rxkotlin",
+            rxandroid: "io.reactivex.rxjava3:rxandroid:$rxandroid"
+    ]
+
+    retrofitVersion = "2.9.0"
+    logging_interceptor = "3.14.0"
+    okioVersion = '2.2.2'
+    retrofitDependencies = [
+            retrofit           : "com.squareup.retrofit2:retrofit:$retrofitVersion",
+            adapter_rxjava     : "com.squareup.retrofit2:adapter-rxjava3:$retrofitVersion",
+            jackson_converter  : "com.squareup.retrofit2:converter-jackson:$retrofitVersion",
+            logging_interceptor: "com.squareup.okhttp3:logging-interceptor:$logging_interceptor",
+            okio               : "com.squareup.okio:okio:$okioVersion"
+    ]
+
+    okhttpVersion = '4.0.0-alpha02'
+    okHttpDependencies = [
+            okhttp: "com.squareup.okhttp3:okhttp:$okhttpVersion"
+    ]
+
+    jacksonVersion = "2.9.8"
+    jacksonDependencies = [
+            jackson_core         : "com.fasterxml.jackson.core:jackson-core:$jacksonVersion",
+            jackson_annotations  : "com.fasterxml.jackson.core:jackson-annotations:$jacksonVersion",
+            jackson_databind     : "com.fasterxml.jackson.core:jackson-databind:$jacksonVersion",
+            jackson_datatype_joda: "com.fasterxml.jackson.datatype:jackson-datatype-joda:$jacksonVersion",
+            jackson_module_kotlin: "com.fasterxml.jackson.module:jackson-module-kotlin:$jacksonVersion"
+    ]
+
+    stetho = "1.5.1"
+    multidex = "2.0.0"
+    commonDependencies = [
+            stetho  : "com.facebook.stetho:stetho:$stetho",
+            multidex: "androidx.multidex:multidex:$multidex"
+    ]
+
+    glide = "4.9.0"
+    transformations = "4.0.0"
+    glideDependencies = [
+
+            glide          : "com.github.bumptech.glide:glide:$glide",
+            transformations: "jp.wasabeef:glide-transformations:$transformations",
+            compiler       : "com.github.bumptech.glide:compiler:$glide",
+            okhttp3        : "com.github.bumptech.glide:okhttp3-integration:$glide"
+    ]
+
+    anko_version = '0.10.8'
+    ankoDependencies = [
+            anko   : "org.jetbrains.anko:anko:$anko_version",
+            commons: "org.jetbrains.anko:anko:$anko_version",
+            common : "org.jetbrains.anko:anko:$anko_version"
+    ]
+
+    joda_time = "2.10.1"
+    jodatimeDependencies = [
+            joda: "joda-time:joda-time:$joda_time"
+    ]
+
+    firebase_core = "16.0.8"
+    firebase_messaging = "17.5.0"
+    firebase_storage = "16.1.0"
+    firebase_database = "16.1.0"
+    firebaseDependencies = [
+            core     : "com.google.firebase:firebase-core:$firebase_core",
+            messaging: "com.google.firebase:firebase-messaging:$firebase_messaging",
+            storage  : "com.google.firebase:firebase-storage:$firebase_messaging",
+            database : "com.google.firebase:firebase-database:$firebase_database",
+    ]
+
+    facebook_login = "5.0.0"
+    facebookDependencies = [
+            login: "com.facebook.android:facebook-login:$facebook_login"
+    ]
+
+    lottie = "3.0.7"
+    lottieDependencies = [
+            lottie: "com.airbnb.android:lottie:$lottie"
+
+    ]
+}

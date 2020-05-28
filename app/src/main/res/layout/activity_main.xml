@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/bValidationExample"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/show_validator_example" />
+
+            <Button
+                android:id="@+id/bGpsExample"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gps_example" />
+
+            <Button
+                android:id="@+id/bFfmpegExample"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ffmpeg_example" />
+
+            <Button
+                android:id="@+id/bCompressImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/compress_image" />
+
+            <Button
+                android:id="@+id/bPhoneViewExample"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/show_phone_view_example" />
+
+            <Button
+                android:id="@+id/bAuthExample"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/auth_example" />
+
+            <Button
+                android:id="@+id/bHashtagExample"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hashtag_example" />
+
+            <Button
+                android:id="@+id/bSearchUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/search_user_example" />
+
+            <Button
+                android:id="@+id/bProgressUpload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/progress_upload" />
+
+            <Button
+                android:id="@+id/bCompositeAdapter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/composite_adapter" />
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

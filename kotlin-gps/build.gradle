@@ -1,0 +1,59 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+apply from: 'lib_jcenter.settings.gradle'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion as Integer
+    buildToolsVersion rootProject.ext.buildToolsVersion as String
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion as Integer
+        targetSdkVersion rootProject.ext.compileSdkVersion as Integer
+        versionCode libraryVersionCode
+        versionName libraryVersion
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            debuggable true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    // common
+    implementation supportDependencies.appCompat
+    implementation supportDependencies.lifecycleExtension
+    implementation kotlinDependencies.jdk
+
+    //google gms services location
+    implementation(playServiceDependencies.play_services_location) {
+        exclude module: 'support-v4'
+    }
+}
+
+//Add these lines to publish library to bintray
+//Place it at the end of the file
+apply from: '../installv1.gradle'
+//https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+apply from: '../bintrayv1.gradle'
+// https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle

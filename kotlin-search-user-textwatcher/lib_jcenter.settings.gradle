@@ -1,0 +1,11 @@
+apply from: '../main_jcenter.settings.gradle'
+ext {
+    bintrayRepo = 'bootstrap'
+    bintrayName = 'kotlin-search-user-textwatcher'
+
+    publishedGroupId = 'com.cleveroad.bootstrap'
+    libraryName = 'kotlin-search-user-textwatcher'
+    artifact = 'kotlin-search-user-textwatcher'
+
+    libraryDescription = 'Kotlin Search User TextWatcher'
+}

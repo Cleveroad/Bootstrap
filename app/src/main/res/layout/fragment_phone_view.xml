@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attrs="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.cleveroad.bootstrap.kotlin_phone_input.view.PhoneInputLayout
+        android:id="@+id/pvCodePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        android:theme="@style/PhoneTheme"
+        attrs:pcv_flag_shape="circle"
+        attrs:pcv_icon_size="30dp"
+        attrs:pcv_icon_position="start">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            attrs:errorEnabled="true"
+            attrs:hintEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </com.cleveroad.bootstrap.kotlin_phone_input.view.PhoneInputLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bIcon24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="icon 24" />
+
+            <Button
+                android:id="@+id/bIcon36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="icon 36" />
+
+            <Button
+                android:id="@+id/bIcon48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="icon 48" />
+
+            <Button
+                android:id="@+id/bIcon60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="icon 60" />
+
+            <Button
+                android:id="@+id/bFlagVisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="flag visible" />
+
+            <Button
+                android:id="@+id/bFlagPosition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="flag position" />
+
+            <Button
+                android:id="@+id/bValidation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone validation" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">kotlin_progress_upload</string>
+
+    <string name="pick_image">Pick image</string>
+    <string name="open_gallery">Open gallery</string>
+    <string name="image_upload">Image upload</string>
+    <string name="status_preparing">Preparing…</string>
+    <string name="status_processing">Processing…</string>
+    <string name="status_successful">Successful</string>
+    <string name="status_failed">Failed</string>
+</resources>

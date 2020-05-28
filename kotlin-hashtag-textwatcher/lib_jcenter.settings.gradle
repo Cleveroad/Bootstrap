@@ -1,0 +1,13 @@
+apply from: '../main_jcenter.settings.gradle'
+
+ext {
+    bintrayRepo = 'bootstrap'
+    bintrayName = 'kotlin-hashtag-textwatcher'
+
+    publishedGroupId = 'com.cleveroad.bootstrap'
+    libraryName = 'kotlin-hashtag-textwatcher'
+    artifact = 'kotlin-hashtag-textwatcher'
+
+    libraryDescription = 'Kotlin HashTag TextWatcher'
+
+}

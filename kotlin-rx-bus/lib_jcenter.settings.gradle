@@ -1,0 +1,11 @@
+apply from: '../main_jcenter.settings.gradle'
+ext {
+    bintrayRepo = 'bootstrap'
+    bintrayName = 'kotlin-rx-bus'
+
+    publishedGroupId = 'com.cleveroad.bootstrap'
+    libraryName = 'kotlin-rx-bus'
+    artifact = 'kotlin-rx-bus'
+
+    libraryDescription = 'Kotlin rxbus'
+}

@@ -1,0 +1,15 @@
+ext {
+    libraryVersionCode = 34
+    libraryVersion = '3.0.0'
+
+    developerId = 'cleveroad'
+    developerName = 'Eugene Altynpara'
+    developerEmail = 'info@cleveroad.com'
+
+    siteUrl = 'https://github.com/Cleveroad/Bootstrap'
+    gitUrl = 'https://github.com/Cleveroad/Bootstrap.git'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}

@@ -1,0 +1,11 @@
+apply from: '../main_jcenter.settings.gradle'
+ext {
+    bintrayRepo = 'bootstrap'
+    bintrayName = 'kotlin-validators'
+
+    publishedGroupId = 'com.cleveroad.bootstrap'
+    libraryName = 'kotlin-validators'
+    artifact = 'kotlin-validators'
+
+    libraryDescription = 'Kotlin validators'
+}

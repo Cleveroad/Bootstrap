@@ -1,0 +1,11 @@
+apply from: '../main_jcenter.settings.gradle'
+ext {
+    bintrayRepo = 'bootstrap'
+    bintrayName = 'kotlin-phone-input'
+
+    publishedGroupId = 'com.cleveroad.bootstrap'
+    libraryName = 'kotlin-phone-input'
+    artifact = 'kotlin-phone-input'
+
+    libraryDescription = 'Kotlin phone input'
+}

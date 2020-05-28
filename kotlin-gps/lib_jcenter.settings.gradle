@@ -1,0 +1,12 @@
+apply from: '../main_jcenter.settings.gradle'
+ext {
+    bintrayRepo = 'bootstrap'
+    bintrayName = 'kotlin-gps'
+
+    publishedGroupId = 'com.cleveroad.bootstrap'
+    libraryName = 'kotlin-gps'
+    artifact = 'kotlin-gps'
+
+    libraryDescription = 'Kotlin library for working with a ' +
+            'location with a dialog for permission and gps'
+}

@@ -1,0 +1,126 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion as Integer
+    buildToolsVersion rootProject.ext.buildToolsVersion as String
+    defaultConfig {
+        applicationId "com.cleveroad.bootstrap.kotlin"
+        minSdkVersion 21
+        targetSdkVersion rootProject.ext.compileSdkVersion as Integer
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("./debug.keystore")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+        }
+
+        release {
+            storeFile file("./debug.keystore")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+        }
+    }
+
+    buildTypes {
+        all {
+            buildConfigField "String", "GOOGLE_CLIENT_ID", '"566345842174-peikmp72ojdpkojk7ahrtn1kes7tsj5d.apps.googleusercontent.com"'
+            buildConfigField "String", "TWITTER_CONSUMER_KEY", '"Hp4qnW2VWVaYRjtbRQDDODzgw"'
+            buildConfigField "String", "TWITTER_REDIRECT_URL", '"https://cleveroad.com"'
+            buildConfigField "String", "TWITTER_CONSUMER_SECRET", '"uXgGAxsTEgCdTFgUMEEJ4qMoyaMssTTs3kaARxTDPbtymqMncc"'
+            buildConfigField "String", "LINKEDIN_CLIENT_ID", '"77trieisp1plb6"'
+            buildConfigField "String", "LINKEDIN_CLIENT_SECRET", '"2as9CIJXF8e4wPlK"'
+
+            buildConfigField "String", "LINKEDIN_REDIRECT_URL", '"https://www.cleveroad.com/"'
+        }
+
+        debug {
+            minifyEnabled false
+            debuggable true
+            signingConfig signingConfigs.debug
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        release {
+            minifyEnabled false
+            debuggable false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+androidExtensions {
+    experimental = true
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    // tests
+    testImplementation testsDependencies.junit
+    testImplementation testsDependencies.runner
+    testImplementation(testsDependencies.espresso_core) {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+
+    // Google Auth
+    implementation playServiceDependencies.play_services_auth
+
+    // Facebook Auth
+    implementation facebookDependencies.login
+
+    // common
+    implementation supportDependencies.appCompat
+    implementation supportDependencies.design
+    implementation kotlinDependencies.jdk
+
+    // rx
+    implementation rxJava3Dependencies.rxjava
+    implementation rxJava3Dependencies.rxandroid
+
+    // Retrofit
+    implementation retrofitDependencies.retrofit
+    implementation retrofitDependencies.adapter_rxjava
+    implementation retrofitDependencies.jackson_converter
+    implementation retrofitDependencies.okio
+
+    // Jackson
+    implementation jacksonDependencies.jackson_core
+    implementation jacksonDependencies.jackson_annotations
+    implementation jacksonDependencies.jackson_databind
+    implementation jacksonDependencies.jackson_datatype_joda
+
+    // bootstrap
+    implementation project(':kotlin-hashtag-textwatcher')
+    implementation project(':kotlin-phone-input')
+    implementation project(':kotlin-validators')
+    implementation project(':kotlin-core')
+    implementation project(':kotlin-ext')
+    implementation project(':kotlin-gps')
+    implementation project(':kotlin-ffmpeg-thumbnails')
+    implementation project(':kotlin-ffmpeg-video-compress')
+    implementation project(':kotlin-permissionrequest')
+    implementation project(':kotlin-auth')
+    implementation project(':kotlin-search-user-textwatcher')
+    implementation project(':kotlin-progress-upload')
+
+}
+
+repositories {
+    mavenCentral()
+}

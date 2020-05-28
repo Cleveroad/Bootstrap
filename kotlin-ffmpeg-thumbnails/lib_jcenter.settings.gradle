@@ -1,0 +1,11 @@
+apply from: '../main_jcenter.settings.gradle'
+ext {
+    bintrayRepo = 'bootstrap'
+    bintrayName = 'kotlin-ffmpeg-thumbnails'
+
+    publishedGroupId = 'com.cleveroad.bootstrap'
+    libraryName = 'kotlin-ffmpeg-thumbnails'
+    artifact = 'kotlin-ffmpeg-thumbnails'
+
+    libraryDescription = 'Kotlin ffmpeg thumbnail'
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="valid_emails">
+        <item>email@domain.com</item> <!-- Valid email -->
+        <item>firstname.lastname@domain.com</item> <!-- Email contains dot in the address field -->
+        <item>email@subdomain.domain.com</item> <!-- Email contains dot with subdomain -->
+        <item>firstname+lastname@domain.com</item> <!-- Plus sign is considered valid character -->
+        <item>email@123.123.123.123</item> <!-- Domain is valid IP address -->
+        <item>"email"@domain.com</item> <!-- Quotes around email is considered valid -->
+        <item>1234567890@domain.com</item> <!-- Digits in address are valid -->
+        <item>email@domain-one.com</item> <!-- Dash in domain name is valid -->
+        <item>_______@domain.com</item> <!-- Underscore in the address field is valid -->
+        <item>email@domain.name</item> <!-- .name is valid Top Level Domain name -->
+        <item>email@domain.co.jp</item> <!-- Dot in Top Level Domain name also considered valid (use co.jp as example here) -->
+        <item>firstname-lastname@domain.com</item> <!-- Dash in address field is valid -->
+    </string-array>
+
+    <string-array name="invalid_emails">
+        <item>plainaddress</item> <!-- Missing @ sign and domain -->
+        <item>f#@%^%#$@#$@#.com</item> <!-- Garbage -->
+        <item>email.domain.com</item> <!-- Missing @ -->
+        <item>email@domain@domain.com</item> <!-- Two @ sign -->
+        <item>あいうえお@domain.com</item> <!-- Unicode char as address -->
+        <item>email@domain.com (Joe Smith)</item> <!-- Text followed email is not allowed -->
+        <item>email@domain</item> <!-- Missing top level domain (.com/.net/.org/etc) -->
+        <item>email@-domain.com</item> <!-- Leading dash in front of domain is invalid -->
+        <item>email@domain..com</item> <!-- Multiple dot in the domain portion is invalid -->
+    </string-array>
+</resources>

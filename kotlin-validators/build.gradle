@@ -1,0 +1,67 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply from: 'lib_jcenter.settings.gradle'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion as Integer
+    buildToolsVersion rootProject.ext.buildToolsVersion as String
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion as Integer
+        targetSdkVersion rootProject.ext.compileSdkVersion as Integer
+        targetSdkVersion rootProject.ext.compileSdkVersion as Integer
+        versionCode libraryVersionCode
+        versionName libraryVersion
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            debuggable true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    // tests
+    testImplementation testsDependencies.junit
+    testImplementation testsDependencies.runner
+    testImplementation(testsDependencies.espresso_core) {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+
+    // common
+    implementation supportDependencies.appCompat
+    implementation kotlinDependencies.jdk
+
+    // phone utils
+    implementation 'io.michaelrocks:libphonenumber-android:8.9.0'
+}
+repositories {
+    mavenCentral()
+}
+
+//Add these lines to publish library to bintray
+//Place it at the end of the file
+apply from: '../installv1.gradle'
+//https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+apply from: '../bintrayv1.gradle'
+// https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle

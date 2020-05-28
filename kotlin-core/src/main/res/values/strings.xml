@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Core</string>
+    <string name="ok">Ok</string>
+    <string name="no">No</string>
+
+    <string name="something_went_wrong">Something went wrong</string>
+</resources>

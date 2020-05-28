@@ -1,0 +1,1689 @@
+[
+  {
+    "ab": "AD",
+    "dial_code": "376",
+    "country_id": "603dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Andorra",
+    "format": "000 0 000 0000 0000"
+  },
+  {
+    "ab": "AE",
+    "dial_code": "971",
+    "country_id": "1c3fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "United Arab Emirates",
+    "format": "000 00 000 0000 000"
+  },
+  {
+    "ab": "AF",
+    "dial_code": "93",
+    "country_id": "563dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Afghanistan",
+    "format": "00 00 000 0000 0000"
+  },
+  {
+    "ab": "AG",
+    "dial_code": "1",
+    "country_id": "683dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Antigua And Barbuda",
+    "format": "0 000 000 0000 0000"
+  },
+  {
+    "ab": "AI",
+    "dial_code": "1",
+    "country_id": "643dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Anguilla",
+    "format": "0 000 000 0000 0000"
+  },
+  {
+    "ab": "AL",
+    "dial_code": "355",
+    "country_id": "5a3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Albania",
+    "format": "000 00 000 0000 000"
+  },
+  {
+    "ab": "AM",
+    "dial_code": "374",
+    "country_id": "6c3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Armenia",
+    "format": "000 00 000000 0000"
+  },
+  {
+    "ab": "AN",
+    "dial_code": "599",
+    "country_id": "8a3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Netherlands Antilles",
+    "format": "000 000 000 00 000 0"
+  },
+  {
+    "ab": "AO",
+    "dial_code": "244",
+    "country_id": "623dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Angola",
+    "format": "000 00 000 000 0000"
+  },
+  {
+    "ab": "AQ",
+    "dial_code": "672",
+    "country_id": "663dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Antarctica",
+    "format": "000 000 000 00 000 0"
+  },
+  {
+    "ab": "AR",
+    "dial_code": "54",
+    "country_id": "6a3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Argentina",
+    "format": "00 00 00 0000 00000"
+  },
+  {
+    "ab": "AS",
+    "dial_code": "685",
+    "country_id": "5e3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "American Samoa",
+    "format": "000 00 000 0000 000"
+  },
+  {
+    "ab": "AT",
+    "dial_code": "43",
+    "country_id": "723dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Austria",
+    "format": "00 000 000 0000 000"
+  },
+  {
+    "ab": "AU",
+    "dial_code": "61",
+    "country_id": "703dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Australia",
+    "format": "00 000 000 000 0000"
+  },
+  {
+    "ab": "AW",
+    "dial_code": "297",
+    "country_id": "6e3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Aruba",
+    "format": "000 000 0000 00000"
+  },
+  {
+    "ab": "AZ",
+    "dial_code": "994",
+    "country_id": "743dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Azerbaijan",
+    "format": "000 00 000 00 00000"
+  },
+  {
+    "ab": "BA",
+    "dial_code": "387",
+    "country_id": "8c3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Bosnia And Herzegovina",
+    "format": "000 00 00 00 000 000"
+  },
+  {
+    "ab": "BB",
+    "dial_code": "1",
+    "country_id": "7c3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Barbados",
+    "format": "0 000 000 0000 0000"
+  },
+  {
+    "ab": "BD",
+    "dial_code": "880",
+    "country_id": "7a3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Bangladesh",
+    "format": "000 0000 00000000"
+  },
+  {
+    "ab": "BE",
+    "dial_code": "32",
+    "country_id": "803dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Belgium",
+    "format": "00 000 00 00 000 000"
+  },
+  {
+    "ab": "BF",
+    "dial_code": "226",
+    "country_id": "9a3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Burkina Faso",
+    "format": "000 00 00 00 000 000"
+  },
+  {
+    "ab": "BG",
+    "dial_code": "359",
+    "country_id": "983dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Bulgaria",
+    "format": "000 00 000 0000 000"
+  },
+  {
+    "ab": "BH",
+    "dial_code": "973",
+    "country_id": "783dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Bahrain",
+    "format": "000 0000 0000 0000"
+  },
+  {
+    "ab": "BI",
+    "dial_code": "257",
+    "country_id": "9c3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Burundi",
+    "format": "000 00 00 00 000000"
+  },
+  {
+    "ab": "BJ",
+    "dial_code": "229",
+    "country_id": "843dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Benin",
+    "format": "000 00 00 00 0000 00"
+  },
+  {
+    "ab": "BM",
+    "dial_code": "1",
+    "country_id": "863dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Bermuda",
+    "format": "0 000 000 0000 0000"
+  },
+  {
+    "ab": "BN",
+    "dial_code": "673",
+    "country_id": "963dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Brunei Darussalam",
+    "format": "000 000 0000 00000"
+  },
+  {
+    "ab": "BO",
+    "dial_code": "591",
+    "country_id": "8a3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Bolivia",
+    "format": "000 0 000 0000 0000"
+  },
+  {
+    "ab": "BR",
+    "dial_code": "55",
+    "country_id": "923dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Brazil",
+    "format": "00 000 000 0000 0000"
+  },
+  {
+    "ab": "BS",
+    "dial_code": "1",
+    "country_id": "763dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Bahamas",
+    "format": "0 000 000 0000 0000"
+  },
+  {
+    "ab": "BT",
+    "dial_code": "975",
+    "country_id": "883dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Bhutan",
+    "format": "000 00 00 00 0000 00"
+  },
+  {
+    "ab": "BV",
+    "dial_code": "55",
+    "country_id": "903dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Bouvet Island",
+    "format": "00 00 000 0000 0000"
+  },
+  {
+    "ab": "BW",
+    "dial_code": "267",
+    "country_id": "8e3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Botswana",
+    "format": "000 00 000 000 0000"
+  },
+  {
+    "ab": "BY",
+    "dial_code": "375",
+    "country_id": "7e3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Belarus",
+    "format": "000 00 000 000 0000"
+  },
+  {
+    "ab": "BZ",
+    "dial_code": "501",
+    "country_id": "823dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Belize",
+    "format": "000 000 0000 00000"
+  },
+  {
+    "ab": "CA",
+    "dial_code": "1",
+    "country_id": "a23dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Canada",
+    "format": "0 000 000 0000 0000"
+  },
+  {
+    "ab": "CC",
+    "dial_code": "61",
+    "country_id": "b23dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Cocos (Keeling) Islands",
+    "format": "00 000000 000 0000"
+  },
+  {
+    "ab": "CD",
+    "dial_code": "243",
+    "country_id": "ba3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Congo, The Democratic Republic Of The",
+    "format": "000 00 0000000000"
+  },
+  {
+    "ab": "CF",
+    "dial_code": "236",
+    "country_id": "a83dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Central African Republic",
+    "format": "000 00 00 00 00 00 00"
+  },
+  {
+    "ab": "CG",
+    "dial_code": "242",
+    "country_id": "b83dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Congo",
+    "format": "000 000 0000 00000"
+  },
+  {
+    "ab": "CH",
+    "dial_code": "41",
+    "country_id": "f83eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Switzerland",
+    "format": "00 00 000 00 00 0000"
+  },
+  {
+    "ab": "CI",
+    "dial_code": "225",
+    "country_id": "c03dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Cote D'Ivoire",
+    "format": "000 00 00 00 00 00 00"
+  },
+  {
+    "ab": "CK",
+    "dial_code": "682",
+    "country_id": "bc3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Cook Islands",
+    "format": "000 00 000 000 0000"
+  },
+  {
+    "ab": "CL",
+    "dial_code": "56",
+    "country_id": "ac3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Chile",
+    "format": "00 0 0000 0000 0000"
+  },
+  {
+    "ab": "CM",
+    "dial_code": "237",
+    "country_id": "a03dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Cameroon",
+    "format": "000 00 00 00 00 00 00"
+  },
+  {
+    "ab": "CN",
+    "dial_code": "86",
+    "country_id": "ae3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "China",
+    "format": "00 000 0000 0000 00"
+  },
+  {
+    "ab": "CO",
+    "dial_code": "57",
+    "country_id": "b43dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Colombia",
+    "format": "00 000 0000000000"
+  },
+  {
+    "ab": "CR",
+    "dial_code": "506",
+    "country_id": "be3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Costa Rica",
+    "format": "000 0000 0000 0000"
+  },
+  {
+    "ab": "CS",
+    "dial_code": "381",
+    "country_id": "d63eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Serbia And Montenegro",
+    "format": "000 000 000 00 00 00"
+  },
+  {
+    "ab": "CU",
+    "dial_code": "53",
+    "country_id": "c43dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Cuba",
+    "format": "00 0 000000000000"
+  },
+  {
+    "ab": "CV",
+    "dial_code": "238",
+    "country_id": "a43dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Cape Verde",
+    "format": "000 000 00 00 00000"
+  },
+  {
+    "ab": "CX",
+    "dial_code": "61",
+    "country_id": "b03dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Christmas Island",
+    "format": "00 0 0000 0000 0000"
+  },
+  {
+    "ab": "CY",
+    "dial_code": "357",
+    "country_id": "c63dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Cyprus",
+    "format": "000 00 0000000000"
+  },
+  {
+    "ab": "CZ",
+    "dial_code": "420",
+    "country_id": "c83dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Czech Republic",
+    "format": "000 000 000 000 000"
+  },
+  {
+    "ab": "DE",
+    "dial_code": "49",
+    "country_id": "f63dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Germany",
+    "format": "00 0000 000000000"
+  },
+  {
+    "ab": "DJ",
+    "dial_code": "253",
+    "country_id": "cc3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Djibouti",
+    "format": "000 00 00 00 00 0000"
+  },
+  {
+    "ab": "DK",
+    "dial_code": "45",
+    "country_id": "ca3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Denmark",
+    "format": "00 00 00 00 00 00000"
+  },
+  {
+    "ab": "DM",
+    "dial_code": "1",
+    "country_id": "ce3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Dominica",
+    "format": "0 000 000 0000 0000"
+  },
+  {
+    "ab": "DO",
+    "dial_code": "1",
+    "country_id": "d03dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Dominican Republic",
+    "format": "0 000 000 0000 0000"
+  },
+  {
+    "ab": "DZ",
+    "dial_code": "213",
+    "country_id": "5c3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Algeria",
+    "format": "000 000 00 00 00 000"
+  },
+  {
+    "ab": "EC",
+    "dial_code": "593",
+    "country_id": "d23dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Ecuador",
+    "format": "000 00 000 0000 000"
+  },
+  {
+    "ab": "EE",
+    "dial_code": "372",
+    "country_id": "dc3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Estonia",
+    "format": "000 000 0000 00000"
+  },
+  {
+    "ab": "EG",
+    "dial_code": "20",
+    "country_id": "d43dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Egypt",
+    "format": "00 000 000 0000 000"
+  },
+  {
+    "ab": "EH",
+    "dial_code": "212",
+    "country_id": "343fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Western Sahara",
+    "format": "000 0000 00000000"
+  },
+  {
+    "ab": "ER",
+    "dial_code": "291",
+    "country_id": "da3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Eritrea",
+    "format": "000 0 000 000 00000"
+  },
+  {
+    "ab": "ES",
+    "dial_code": "34",
+    "country_id": "ea3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Spain",
+    "format": "00 000 00 00 00 0000"
+  },
+  {
+    "ab": "ET",
+    "dial_code": "251",
+    "country_id": "de3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Ethiopia",
+    "format": "000 00 000 0000 000"
+  },
+  {
+    "ab": "FI",
+    "dial_code": "358",
+    "country_id": "e63dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Finland",
+    "format": "000 00 00000000"
+  },
+  {
+    "ab": "FJ",
+    "dial_code": "679",
+    "country_id": "e43dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Fiji",
+    "format": "000 000 0000 00000"
+  },
+  {
+    "ab": "FK",
+    "dial_code": "500",
+    "country_id": "e03dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Falkland Islands (Malvinas)",
+    "format": "000 0 00000000000"
+  },
+  {
+    "ab": "FM",
+    "dial_code": "691",
+    "country_id": "723eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Micronesia, Federated States Of",
+    "format": "000 000 0000 00000"
+  },
+  {
+    "ab": "FO",
+    "dial_code": "298",
+    "country_id": "e23dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Faroe Islands",
+    "format": "000 00 0000000000"
+  },
+  {
+    "ab": "FR",
+    "dial_code": "33",
+    "country_id": "e83dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "France",
+    "format": "00 0 00 00 00 00 0000"
+  },
+  {
+    "ab": "GA",
+    "dial_code": "241",
+    "country_id": "f03dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Gabon",
+    "format": "000 0 00 00 00 00000"
+  },
+  {
+    "ab": "GB",
+    "dial_code": "44",
+    "country_id": "1e3fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "United Kingdom",
+    "format": "00 0000 000000000"
+  },
+  {
+    "ab": "GD",
+    "dial_code": "1",
+    "country_id": "003eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Grenada",
+    "format": "0 000 000 0000 0000"
+  },
+  {
+    "ab": "GE",
+    "dial_code": "995",
+    "country_id": "f43dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Georgia",
+    "format": "000 000 00 00 00 000"
+  },
+  {
+    "ab": "GF",
+    "dial_code": "594",
+    "country_id": "ea3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "French Guiana",
+    "format": "000 000 00 00 00 000"
+  },
+  {
+    "ab": "GG",
+    "dial_code": "44",
+    "country_id": "083eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Guernsey",
+    "format": "00 00 0000 0000 000"
+  },
+  {
+    "ab": "GH",
+    "dial_code": "233",
+    "country_id": "f83dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Ghana",
+    "format": "000 00 000 0000 000"
+  },
+  {
+    "ab": "GI",
+    "dial_code": "350",
+    "country_id": "fa3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Gibraltar",
+    "format": "000 000 000000000"
+  },
+  {
+    "ab": "GL",
+    "dial_code": "299",
+    "country_id": "fe3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Greenland",
+    "format": "000 00 00 00 000000"
+  },
+  {
+    "ab": "GM",
+    "dial_code": "220",
+    "country_id": "f23dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Gambia",
+    "format": "000 000 0000 00000"
+  },
+  {
+    "ab": "GN",
+    "dial_code": "224",
+    "country_id": "0a3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Guinea",
+    "format": "000 000 00 00 00 000"
+  },
+  {
+    "ab": "GP",
+    "dial_code": "590",
+    "country_id": "023eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Guadeloupe",
+    "format": "000 00 0000 000000"
+  },
+  {
+    "ab": "GQ",
+    "dial_code": "240",
+    "country_id": "d83dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Equatorial Guinea",
+    "format": "000 000 000 000000"
+  },
+  {
+    "ab": "GR",
+    "dial_code": "30",
+    "country_id": "fc3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Greece",
+    "format": "00 000 000 0000 000"
+  },
+  {
+    "ab": "GS",
+    "dial_code": "500",
+    "country_id": "e83eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "South Georgia And The South Sandwich Islands",
+    "format": "000 000 000 00 0000"
+  },
+  {
+    "ab": "GT",
+    "dial_code": "502",
+    "country_id": "063eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Guatemala",
+    "format": "000 0000 0000 0000"
+  },
+  {
+    "ab": "GU",
+    "dial_code": "1",
+    "country_id": "043eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Guam",
+    "format": "0 000 000 0000 0000"
+  },
+  {
+    "ab": "GW",
+    "dial_code": "245",
+    "country_id": "0c3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Guinea-Bissau",
+    "format": "000 0 00000000000"
+  },
+  {
+    "ab": "GY",
+    "dial_code": "592",
+    "country_id": "0e3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Guyana",
+    "format": "000 000 0000 00000"
+  },
+  {
+    "ab": "HK",
+    "dial_code": "852",
+    "country_id": "183eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Hong Kong",
+    "format": "000 0000 0000 0000"
+  },
+  {
+    "ab": "HM",
+    "dial_code": "3166",
+    "country_id": "123eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Heard Island And Mcdonald Islands",
+    "format": "0000 000 000 00 000"
+  },
+  {
+    "ab": "HN",
+    "dial_code": "504",
+    "country_id": "163eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Honduras",
+    "format": "000 0000 0000 0000"
+  },
+  {
+    "ab": "HR",
+    "dial_code": "385",
+    "country_id": "c23dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Croatia",
+    "format": "000 00 000 000 0000"
+  },
+  {
+    "ab": "HT",
+    "dial_code": "509",
+    "country_id": "103eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Haiti",
+    "format": "000 00 00 0000 0000"
+  },
+  {
+    "ab": "HU",
+    "dial_code": "36",
+    "country_id": "1a3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Hungary",
+    "format": "00 00 000 0000 0000"
+  },
+  {
+    "ab": "ID",
+    "dial_code": "62",
+    "country_id": "203eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Indonesia",
+    "format": "00 000 0000 0000 00"
+  },
+  {
+    "ab": "IE",
+    "dial_code": "353",
+    "country_id": "263eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Ireland",
+    "format": "000 00 000 0000 000"
+  },
+  {
+    "ab": "IL",
+    "dial_code": "972",
+    "country_id": "2a3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Israel",
+    "format": "000 00 000 0000 000"
+  },
+  {
+    "ab": "IM",
+    "dial_code": "44",
+    "country_id": "283eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Isle Of Man",
+    "format": "00 0000 000000000"
+  },
+  {
+    "ab": "IN",
+    "dial_code": "91",
+    "country_id": "1e3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "India",
+    "format": "00 00000 00000 000"
+  },
+  {
+    "ab": "IO",
+    "dial_code": "246",
+    "country_id": "943dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "British Indian Ocean Territory",
+    "format": "000 000 0000 00000"
+  },
+  {
+    "ab": "IQ",
+    "dial_code": "964",
+    "country_id": "243eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Iraq",
+    "format": "000 000 000 0000 00"
+  },
+  {
+    "ab": "IR",
+    "dial_code": "98",
+    "country_id": "223eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Iran, Islamic Republic Of",
+    "format": "00 000 000 0000 000"
+  },
+  {
+    "ab": "IS",
+    "dial_code": "354",
+    "country_id": "1c3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Iceland",
+    "format": "000 000 0000 00000"
+  },
+  {
+    "ab": "IT",
+    "dial_code": "39",
+    "country_id": "2c3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Italy",
+    "format": "00 000 000 0000 000"
+  },
+  {
+    "ab": "JE",
+    "dial_code": "832",
+    "country_id": "323eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Jersey",
+    "format": "000 0000 00000000"
+  },
+  {
+    "ab": "JM",
+    "dial_code": "1",
+    "country_id": "2e3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Jamaica",
+    "format": "0 000 000 00000 0000"
+  },
+  {
+    "ab": "JO",
+    "dial_code": "962",
+    "country_id": "343eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Jordan",
+    "format": "000 0 0000 0000 000"
+  },
+  {
+    "ab": "JP",
+    "dial_code": "81",
+    "country_id": "303eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Japan",
+    "format": "00 00 0000 0000 000"
+  },
+  {
+    "ab": "KE",
+    "dial_code": "254",
+    "country_id": "383eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Kenya",
+    "format": "000 000 000000000"
+  },
+  {
+    "ab": "KG",
+    "dial_code": "996",
+    "country_id": "423eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Kyrgyzstan",
+    "format": "000 000 000 000 000"
+  },
+  {
+    "ab": "KH",
+    "dial_code": "855",
+    "country_id": "9e3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Cambodia",
+    "format": "000 00 000 0000 000"
+  },
+  {
+    "ab": "KI",
+    "dial_code": "686",
+    "country_id": "3a3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Kiribati",
+    "format": "000 00 0000000000"
+  },
+  {
+    "ab": "KM",
+    "dial_code": "269",
+    "country_id": "b63dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Comoros",
+    "format": "000 000 00 00 00000"
+  },
+  {
+    "ab": "KN",
+    "dial_code": "1",
+    "country_id": "c43eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Saint Kitts And Nevis",
+    "format": "0 000 000 0000 0000"
+  },
+  {
+    "ab": "KP",
+    "dial_code": "850",
+    "country_id": "3c3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Korea, Democratic People'S Republic Of",
+    "format": "000 000 000 000000"
+  },
+  {
+    "ab": "KR",
+    "dial_code": "82",
+    "country_id": "3e3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Korea, Republic Of",
+    "format": "00 00 000 0000 0000"
+  },
+  {
+    "ab": "KW",
+    "dial_code": "965",
+    "country_id": "403eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Kuwait",
+    "format": "000 0000 0000 0000"
+  },
+  {
+    "ab": "KY",
+    "dial_code": "1",
+    "country_id": "a63dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Cayman Islands",
+    "format": "0 000 000 0000 0000"
+  },
+  {
+    "ab": "KZ",
+    "dial_code": "7",
+    "country_id": "363eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Kazakhstan",
+    "format": "0 000 0000 0000000"
+  },
+  {
+    "ab": "LA",
+    "dial_code": "856",
+    "country_id": "443eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Lao People'S Democratic Republic",
+    "format": "000 00 00 000 000 00"
+  },
+  {
+    "ab": "LB",
+    "dial_code": "961",
+    "country_id": "483eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Lebanon",
+    "format": "000 00 000 000 0000"
+  },
+  {
+    "ab": "LC",
+    "dial_code": "1",
+    "country_id": "c63eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Saint Lucia",
+    "format": "0 000 000 0000 0000"
+  },
+  {
+    "ab": "LI",
+    "dial_code": "423",
+    "country_id": "503eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Liechtenstein",
+    "format": "000 000 00 00"
+  },
+  {
+    "ab": "LK",
+    "dial_code": "94",
+    "country_id": "ec3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Sri Lanka",
+    "format": "00 0 000000000000"
+  },
+  {
+    "ab": "LR",
+    "dial_code": "231",
+    "country_id": "4c3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Liberia",
+    "format": "000 0 000 000 00000"
+  },
+  {
+    "ab": "LS",
+    "dial_code": "266",
+    "country_id": "4a3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Lesotho",
+    "format": "000 0000 0000 0000"
+  },
+  {
+    "ab": "LT",
+    "dial_code": "370",
+    "country_id": "523eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Lithuania",
+    "format": "000 000 000000000"
+  },
+  {
+    "ab": "LU",
+    "dial_code": "352",
+    "country_id": "543eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Luxembourg",
+    "format": "000 000 000 000 000"
+  },
+  {
+    "ab": "LV",
+    "dial_code": "371",
+    "country_id": "463eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Latvia",
+    "format": "000 00 000 000 0000"
+  },
+  {
+    "ab": "LY",
+    "dial_code": "218",
+    "country_id": "4e3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Libyan Arab Jamahiriya",
+    "format": "000 00 000000000"
+  },
+  {
+    "ab": "MA",
+    "dial_code": "212",
+    "country_id": "7c3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Morocco",
+    "format": "000 000 000000000"
+  },
+  {
+    "ab": "MC",
+    "dial_code": "377",
+    "country_id": "763eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Monaco",
+    "format": "000 0 00 00 00 00 000"
+  },
+  {
+    "ab": "MD",
+    "dial_code": "373",
+    "country_id": "743eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Moldova, Republic Of",
+    "format": "000 000 00 000 0000"
+  },
+  {
+    "ab": "MG",
+    "dial_code": "261",
+    "country_id": "5a3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Madagascar",
+    "format": "000 00 00 000 00 000"
+  },
+  {
+    "ab": "MH",
+    "dial_code": "692",
+    "country_id": "663eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Marshall Islands",
+    "format": "000 000 0000 00000"
+  },
+  {
+    "ab": "MK",
+    "dial_code": "389",
+    "country_id": "583eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Macedonia, The Former Yugoslav Republic Of",
+    "format": "000 00 000 000 0000"
+  },
+  {
+    "ab": "ML",
+    "dial_code": "223",
+    "country_id": "623eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Mali",
+    "format": "000 00 00 00 00 0000"
+  },
+  {
+    "ab": "MM",
+    "dial_code": "95",
+    "country_id": "803eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Myanmar",
+    "format": "00 000 0000000000"
+  },
+  {
+    "ab": "MN",
+    "dial_code": "976",
+    "country_id": "783eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Mongolia",
+    "format": "000 0000 0000 0000"
+  },
+  {
+    "ab": "MO",
+    "dial_code": "853",
+    "country_id": "563eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Macao",
+    "format": "000 0000 0000 0000"
+  },
+  {
+    "ab": "MP",
+    "dial_code": "1",
+    "country_id": "9a3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Northern Mariana Islands",
+    "format": "0 000 000 0000 0000"
+  },
+  {
+    "ab": "MQ",
+    "dial_code": "596",
+    "country_id": "683eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Martinique",
+    "format": "000 000 00 00 00 000"
+  },
+  {
+    "ab": "MR",
+    "dial_code": "222",
+    "country_id": "6a3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Mauritania",
+    "format": "000 00 00 00 000000"
+  },
+  {
+    "ab": "MS",
+    "dial_code": "1",
+    "country_id": "7a3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Montserrat",
+    "format": "0 000 000 0000 0000"
+  },
+  {
+    "ab": "MT",
+    "dial_code": "356",
+    "country_id": "643eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Malta",
+    "format": "000 0000 0000 0000"
+  },
+  {
+    "ab": "MU",
+    "dial_code": "230",
+    "country_id": "6c3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Mauritius",
+    "format": "000 0000 0000 0000"
+  },
+  {
+    "ab": "MV",
+    "dial_code": "960",
+    "country_id": "603eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Maldives",
+    "format": "000 000 0000 00000"
+  },
+  {
+    "ab": "MW",
+    "dial_code": "265",
+    "country_id": "5c3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Malawi",
+    "format": "000 000 00 00 00 000"
+  },
+  {
+    "ab": "MX",
+    "dial_code": "52",
+    "country_id": "703eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Mexico",
+    "format": "00 0 000 000 0000 00"
+  },
+  {
+    "ab": "MY",
+    "dial_code": "60",
+    "country_id": "5e3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Malaysia",
+    "format": "00 000000 000 0000"
+  },
+  {
+    "ab": "MZ",
+    "dial_code": "258",
+    "country_id": "7e3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Mozambique",
+    "format": "00 000 0000 000000"
+  },
+  {
+    "ab": "NA",
+    "dial_code": "264",
+    "country_id": "823eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Namibia",
+    "format": "000 00 000 0000 000"
+  },
+  {
+    "ab": "NC",
+    "dial_code": "687",
+    "country_id": "8c3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "New Caledonia",
+    "format": "000 0 00000 000000"
+  },
+  {
+    "ab": "NE",
+    "dial_code": "227",
+    "country_id": "923eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Niger",
+    "format": "000 00 00 00 00 0000"
+  },
+  {
+    "ab": "NF",
+    "dial_code": "672",
+    "country_id": "983eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Norfolk Island",
+    "format": "000 0 00000 000000"
+  },
+  {
+    "ab": "NG",
+    "dial_code": "234",
+    "country_id": "943eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Nigeria",
+    "format": "000 000 000 000 000"
+  },
+  {
+    "ab": "NI",
+    "dial_code": "505",
+    "country_id": "903eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Nicaragua",
+    "format": "000 0000 0000 0000"
+  },
+  {
+    "ab": "NL",
+    "dial_code": "31",
+    "country_id": "883eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Netherlands",
+    "format": "00 0 00000000 0000"
+  },
+  {
+    "ab": "NO",
+    "dial_code": "47",
+    "country_id": "9c3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Norway",
+    "format": "00 00 00 00 00 00000"
+  },
+  {
+    "ab": "NP",
+    "dial_code": "977",
+    "country_id": "863eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Nepal",
+    "format": "000 000 0000000 00"
+  },
+  {
+    "ab": "NR",
+    "dial_code": "674",
+    "country_id": "843eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Nauru",
+    "format": "000 000 0000 00000"
+  },
+  {
+    "ab": "NU",
+    "dial_code": "683",
+    "country_id": "963eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Niue",
+    "format": "000 0 000 00000000"
+  },
+  {
+    "ab": "NZ",
+    "dial_code": "64",
+    "country_id": "8e3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "New Zealand",
+    "format": "00 00 000 0000 0000"
+  },
+  {
+    "ab": "OM",
+    "dial_code": "968",
+    "country_id": "9e3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Oman",
+    "format": "000 0000 0000 0000"
+  },
+  {
+    "ab": "PA",
+    "dial_code": "507",
+    "country_id": "a63eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Panama",
+    "format": "000 0000 0000 0000"
+  },
+  {
+    "ab": "PE",
+    "dial_code": "51",
+    "country_id": "ac3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Peru",
+    "format": "00 000 000 000 0000"
+  },
+  {
+    "ab": "PF",
+    "dial_code": "689",
+    "country_id": "ec3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "French Polynesia",
+    "format": "000 00 00 00 00 0000"
+  },
+  {
+    "ab": "PG",
+    "dial_code": "675",
+    "country_id": "a83eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Papua New Guinea",
+    "format": "000 000 0000 00000"
+  },
+  {
+    "ab": "PH",
+    "dial_code": "63",
+    "country_id": "ae3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Philippines",
+    "format": "00 000 000 0000 000"
+  },
+  {
+    "ab": "PK",
+    "dial_code": "92",
+    "country_id": "a03eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Pakistan",
+    "format": "00 000 0000000 000"
+  },
+  {
+    "ab": "PL",
+    "dial_code": "48",
+    "country_id": "b23eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Poland",
+    "format": "00 000 000 000 0000"
+  },
+  {
+    "ab": "PM",
+    "dial_code": "508",
+    "country_id": "c83eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Saint Pierre And Miquelon",
+    "format": "000 000000000000"
+  },
+  {
+    "ab": "PN",
+    "dial_code": "64",
+    "country_id": "b03eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Pitcairn",
+    "format": "00 00 000 0000 0000"
+  },
+  {
+    "ab": "PR",
+    "dial_code": "1",
+    "country_id": "b63eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Puerto Rico",
+    "format": "0 000 000 0000 0000"
+  },
+  {
+    "ab": "PS",
+    "dial_code": "970",
+    "country_id": "a43eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Palestinian Territory, Occupied",
+    "format": "000 000 000 000 000"
+  },
+  {
+    "ab": "PT",
+    "dial_code": "351",
+    "country_id": "b43eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Portugal",
+    "format": "000 000 000 000 000"
+  },
+  {
+    "ab": "PW",
+    "dial_code": "680",
+    "country_id": "a23eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Palau",
+    "format": "000 000 0000 00000"
+  },
+  {
+    "ab": "PY",
+    "dial_code": "595",
+    "country_id": "aa3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Paraguay",
+    "format": "000 000 000000 000"
+  },
+  {
+    "ab": "QA",
+    "dial_code": "974",
+    "country_id": "b83eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Qatar",
+    "format": "000 0000 0000 0000"
+  },
+  {
+    "ab": "RE",
+    "dial_code": "262",
+    "country_id": "ba3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Reunion",
+    "format": "000 000 00 00 00 000"
+  },
+  {
+    "ab": "RO",
+    "dial_code": "40",
+    "country_id": "bc3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Romania",
+    "format": "00 000 000 000 0000"
+  },
+  {
+    "ab": "RU",
+    "dial_code": "7",
+    "country_id": "be3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Russian Federation",
+    "format": "0 000 0000000 0000"
+  },
+  {
+    "ab": "RW",
+    "dial_code": "250",
+    "country_id": "c03eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Rwanda",
+    "format": "000 00 00 00 00 0000"
+  },
+  {
+    "ab": "SA",
+    "dial_code": "966",
+    "country_id": "d23eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Saudi Arabia",
+    "format": "000 00 000 0000 000"
+  },
+  {
+    "ab": "SB",
+    "dial_code": "677",
+    "country_id": "e23eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Solomon Islands",
+    "format": "000 00 00000 00000"
+  },
+  {
+    "ab": "SC",
+    "dial_code": "248",
+    "country_id": "d83eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Seychelles",
+    "format": "000 0 00000000000"
+  },
+  {
+    "ab": "SD",
+    "dial_code": "249",
+    "country_id": "ee3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Sudan",
+    "format": "000 00 000 0000 000"
+  },
+  {
+    "ab": "SE",
+    "dial_code": "46",
+    "country_id": "f63eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Sweden",
+    "format": "00 0000000000000"
+  },
+  {
+    "ab": "SG",
+    "dial_code": "65",
+    "country_id": "dc3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Singapore",
+    "format": "00 0000 0000 00000"
+  },
+  {
+    "ab": "SH",
+    "dial_code": "290",
+    "country_id": "c23eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Saint Helena",
+    "format": "000 0000 00000000"
+  },
+  {
+    "ab": "SI",
+    "dial_code": "386",
+    "country_id": "e03eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Slovenia",
+    "format": "000 00 000 000 0000"
+  },
+  {
+    "ab": "SJ",
+    "dial_code": "47",
+    "country_id": "f23eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Svalbard And Jan Mayen",
+    "format": "00 00 00 00 00 00000"
+  },
+  {
+    "ab": "SK",
+    "dial_code": "421",
+    "country_id": "de3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Slovakia",
+    "format": "000 000 000 000 000"
+  },
+  {
+    "ab": "SL",
+    "dial_code": "232",
+    "country_id": "da3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Sierra Leone",
+    "format": "000 00 000000 0000"
+  },
+  {
+    "ab": "SM",
+    "dial_code": "378",
+    "country_id": "ce3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "San Marino",
+    "format": "000 00 00 00 00 0000"
+  },
+  {
+    "ab": "SN",
+    "dial_code": "221",
+    "country_id": "d43eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Senegal",
+    "format": "000 00 000 00 00 000"
+  },
+  {
+    "ab": "SO",
+    "dial_code": "252",
+    "country_id": "e43eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Somalia",
+    "format": "000 00 00000 00000"
+  },
+  {
+    "ab": "SR",
+    "dial_code": "597",
+    "country_id": "f03eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Suriname",
+    "format": "000 000 0000 00000"
+  },
+  {
+    "ab": "ST",
+    "dial_code": "239",
+    "country_id": "d03eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Sao Tome And Principe",
+    "format": "000 000 0000 00000"
+  },
+  {
+    "ab": "SV",
+    "dial_code": "503",
+    "country_id": "d63dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "El Salvador",
+    "format": "000 0000 0000 0000"
+  },
+  {
+    "ab": "SY",
+    "dial_code": "963",
+    "country_id": "fa3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Syrian Arab Republic",
+    "format": "000 000 000 000 000"
+  },
+  {
+    "ab": "SZ",
+    "dial_code": "268",
+    "country_id": "f43eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Swaziland",
+    "format": "000 0000 0000 0000"
+  },
+  {
+    "ab": "TC",
+    "dial_code": "1",
+    "country_id": "143fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Turks And Caicos Islands",
+    "format": "0 000 000 0000 0000"
+  },
+  {
+    "ab": "TD",
+    "dial_code": "235",
+    "country_id": "aa3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Chad",
+    "format": "000 00 00 00 00 0000"
+  },
+  {
+    "ab": "TF",
+    "dial_code": "596",
+    "country_id": "ee3dafb9-62e1-e611-80be-c4b356835f56",
+    "name": "French Southern Territories",
+    "format": "000 000 000 00 0000"
+  },
+  {
+    "ab": "TG",
+    "dial_code": "228",
+    "country_id": "063fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Togo",
+    "format": "000 00 00 00 00 0000"
+  },
+  {
+    "ab": "TH",
+    "dial_code": "66",
+    "country_id": "023fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Thailand",
+    "format": "00 00 000 0000 0000"
+  },
+  {
+    "ab": "TJ",
+    "dial_code": "992",
+    "country_id": "fe3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Tajikistan",
+    "format": "000 000 00 0000 000"
+  },
+  {
+    "ab": "TK",
+    "dial_code": "690",
+    "country_id": "083fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Tokelau",
+    "format": "000 00 0000000000"
+  },
+  {
+    "ab": "TL",
+    "dial_code": "670",
+    "country_id": "043fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Timor-Leste",
+    "format": "000 0000 0000 0000"
+  },
+  {
+    "ab": "TM",
+    "dial_code": "993",
+    "country_id": "123fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Turkmenistan",
+    "format": "000 00 000000 0000"
+  },
+  {
+    "ab": "TN",
+    "dial_code": "216",
+    "country_id": "0e3fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Tunisia",
+    "format": "000 00 000 000 0000"
+  },
+  {
+    "ab": "TO",
+    "dial_code": "676",
+    "country_id": "0a3fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Tonga",
+    "format": "000 000 0000 00000"
+  },
+  {
+    "ab": "TR",
+    "dial_code": "90",
+    "country_id": "103fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Turkey",
+    "format": "00 000 000 00 00 000"
+  },
+  {
+    "ab": "TT",
+    "dial_code": "1",
+    "country_id": "0c3fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Trinidad And Tobago",
+    "format": "0 000 0000 0000 000"
+  },
+  {
+    "ab": "TV",
+    "dial_code": "688",
+    "country_id": "163fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Tuvalu",
+    "format": "000 00 0000000000"
+  },
+  {
+    "ab": "TW",
+    "dial_code": "886",
+    "country_id": "fc3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Taiwan, Province Of China",
+    "format": "000 000 000 000 000"
+  },
+  {
+    "ab": "TZ",
+    "dial_code": "255",
+    "country_id": "003fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Tanzania, United Republic Of",
+    "format": "000 000 000 000 000"
+  },
+  {
+    "ab": "UA",
+    "dial_code": "380",
+    "country_id": "1a3fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Ukraine",
+    "format": "000 00 000 0000 000"
+  },
+  {
+    "ab": "UG",
+    "dial_code": "256",
+    "country_id": "183fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Uganda",
+    "format": "000 000 000000 000"
+  },
+  {
+    "ab": "US",
+    "dial_code": "1",
+    "country_id": "203fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "United States",
+    "format": "0 000 000 0000 0000"
+  },
+  {
+    "ab": "UY",
+    "dial_code": "598",
+    "country_id": "243fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Uruguay",
+    "format": "000 00 000 000 0000"
+  },
+  {
+    "ab": "UZ",
+    "dial_code": "998",
+    "country_id": "263fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Uzbekistan",
+    "format": "000 00 000 00 00 000"
+  },
+  {
+    "ab": "VA",
+    "dial_code": "379",
+    "country_id": "143eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Holy See (Vatican City State)",
+    "format": "000 0000 0000 0000"
+  },
+  {
+    "ab": "VC",
+    "dial_code": "1",
+    "country_id": "ca3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Saint Vincent And The Grenadines",
+    "format": "0 000 000 0000 0000"
+  },
+  {
+    "ab": "VE",
+    "dial_code": "58",
+    "country_id": "2a3fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Venezuela",
+    "format": "00 000 0000000 000"
+  },
+  {
+    "ab": "VG",
+    "dial_code": "1",
+    "country_id": "2e3fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Virgin Islands, British",
+    "format": "0 000 000 0000 0000"
+  },
+  {
+    "ab": "VI",
+    "dial_code": "62",
+    "country_id": "303fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Virgin Islands, U.S.",
+    "format": "00 000 000 0000 000"
+  },
+  {
+    "ab": "VN",
+    "dial_code": "84",
+    "country_id": "2c3fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Vietnam",
+    "format": "00 00 00000000000"
+  },
+  {
+    "ab": "VU",
+    "dial_code": "678",
+    "country_id": "283fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Vanuatu",
+    "format": "000 000 0000 00000"
+  },
+  {
+    "ab": "WF",
+    "dial_code": "681",
+    "country_id": "323fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Wallis And Futuna",
+    "format": "000 00 00 00 000000"
+  },
+  {
+    "ab": "WS",
+    "dial_code": "685",
+    "country_id": "cc3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Samoa",
+    "format": "000 00 0000000000"
+  },
+  {
+    "ab": "YE",
+    "dial_code": "967",
+    "country_id": "363fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Yemen",
+    "format": "000 000 000 000 000"
+  },
+  {
+    "ab": "YT",
+    "dial_code": "262",
+    "country_id": "6e3eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Mayotte",
+    "format": "000 00 00 00 000000"
+  },
+  {
+    "ab": "ZA",
+    "dial_code": "27",
+    "country_id": "e63eafb9-62e1-e611-80be-c4b356835f56",
+    "name": "South Africa",
+    "format": "00 00 000 0000 0000"
+  },
+  {
+    "ab": "ZM",
+    "dial_code": "260",
+    "country_id": "383fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Zambia",
+    "format": "000 00 0000000000"
+  },
+  {
+    "ab": "ZW",
+    "dial_code": "263",
+    "country_id": "3a3fafb9-62e1-e611-80be-c4b356835f56",
+    "name": "Zimbabwe",
+    "format": "000 00 0000000000"
+  }
+]

@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cleveroad.bootstrap.kotlin_auth">
+
+    <application>
+
+        <activity android:name=".twitter.client.oauth.screen.OAuthActivity" />
+        <activity android:name=".linkedin.client.oauth.screen.OAuthActivity" />
+        <activity android:name=".instagram.client.oauth.screen.OAuthActivity" />
+
+    </application>
+</manifest>

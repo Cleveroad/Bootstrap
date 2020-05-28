@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">validators</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="name_is_empty">Name is empty</string>
+    <string name="name_is_too_long">Name is too long</string>
+    <string name="name_is_too_short">Name is too short</string>
+    <string name="name_is_invalid">Name is invalid</string>
+    <string name="password_is_empty">Password is empty</string>
+    <string name="password_is_invalid">Password is invalid</string>
+    <string name="code_is_empty">Code is empty</string>
+    <string name="code_is_invalid">Code is invalid</string>
+    <string name="email_is_empty">Email is empty</string>
+    <string name="email_is_invalid">Email is invalid</string>
+    <string name="login_is_empty">Login is empty</string>
+    <string name="login_is_invalid">Login is invalid</string>
+    <string name="confirm_empty">Confirm password is empty</string>
+    <string name="passwords_dont_match">Confirm Password doesn\'t match password</string>
+    <string name="first_name_is_empty">First name is empty</string>
+    <string name="first_name_is_invalid">First name is invalid</string>
+    <string name="last_name_is_empty">Last name is empty</string>
+    <string name="last_name_is_invalid">Last name is invalid</string>
+    <string name="username_is_empty">Username is empty</string>
+    <string name="username_is_invalid">Username is invalid</string>
+    <string name="phone_is_empty">Phone is empty</string>
+    <string name="phone_is_invalid">Phone is invalid</string>
+    <string name="date_is_not_valid">Date is not valid</string>
+    <string name="confirm_password_is_invalid">Confirm password is invalid</string>
+    <string name="password_min_length_error">Password must contain at least %d characters</string>
+    <string name="password_max_length_error">Password must contain no more than %d characters</string>
+</resources>

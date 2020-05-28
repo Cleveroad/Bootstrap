@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RobotoRegularAshGreyXXLarge">
+        <item name="android:textSize">@dimen/x_large_text</item>
+        <item name="android:textColor">@color/ashgrey</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/xx_large_text</item>
+        <item name="android:fontFamily">@sans-serif</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="RobotoMediumCharcoal3ExtraLarge">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:textColor">@color/charcoal_3</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!--EditText-->
+    <style name="PhoneViewEditTextStyle"/>
+
+    <!--Separator-->
+    <style name="PhoneViewSeparatorStyle">
+        <item name="android:background">@color/ashgrey</item>
+    </style>
+
+</resources>

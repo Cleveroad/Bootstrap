@@ -1,0 +1,12 @@
+apply from: '../main_jcenter.settings.gradle'
+ext {
+    bintrayRepo = 'bootstrap'
+    bintrayName = 'kotlin-permissionrequest'
+
+    publishedGroupId = 'com.cleveroad.bootstrap'
+    libraryName = 'kotlin-permissionrequest'
+    artifact = 'kotlin-permissionrequest'
+
+    libraryDescription = 'Kotlin permissoin request'
+
+}

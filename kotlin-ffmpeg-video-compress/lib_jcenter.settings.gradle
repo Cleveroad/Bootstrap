@@ -1,0 +1,11 @@
+apply from: '../main_jcenter.settings.gradle'
+ext {
+    bintrayRepo = 'bootstrap'
+    bintrayName = 'kotlin-ffmpeg-video-compress'
+
+    publishedGroupId = 'com.cleveroad.bootstrap'
+    libraryName = 'kotlin-ffmpeg-video-compress'
+    artifact = 'kotlin-ffmpeg-video-compress'
+
+    libraryDescription = 'Kotlin ffmpeg video compress'
+}

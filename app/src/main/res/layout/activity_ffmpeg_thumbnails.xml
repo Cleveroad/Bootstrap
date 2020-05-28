@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/bPickFile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ffmpeg_pick_file" />
+
+            <Button
+                android:id="@+id/bPickOverlayFile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ffmpeg_pick__overlay_file" />
+
+            <TextView
+                android:id="@+id/tvPickedFile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/tvPickedOverlayFile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" />
+
+            <EditText
+                android:id="@+id/etFileName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="@string/ffmpeg_enter_output_file_name" />
+
+            <Button
+                android:id="@+id/bCreateThumbnails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ffmpeg_get_thumbnails" />
+
+            <Button
+                android:id="@+id/bCompressVideo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ffmpeg_compress_video" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvPhotos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <include layout="@layout/include_progress" />
+
+</RelativeLayout>
