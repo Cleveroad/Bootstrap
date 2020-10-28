@@ -1,4 +1,4 @@
 ext {
-    libraryVersionCode = 32
-    libraryVersion = '2.1.1'
+    libraryVersionCode = 33
+    libraryVersion = '2.1.2'
 }
