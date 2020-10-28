@@ -8,7 +8,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion as String
 
     defaultConfig {
-        minSdkVersion 21
+        minSdkVersion 18
         targetSdkVersion rootProject.ext.compileSdkVersion as Integer
         versionCode libraryVersionCode
         versionName libraryVersion
