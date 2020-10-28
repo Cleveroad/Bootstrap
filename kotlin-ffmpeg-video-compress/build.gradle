@@ -38,5 +38,5 @@ dependencies {
     implementation rxjava2Dependencies.rxkotlin
     implementation rxjava2Dependencies.rxandroid
 
-    implementation 'nl.bravobit:android-ffmpeg:1.1.5'
+    implementation 'com.github.scmfaria:FFmpeg-Android:1.2.1'
 }

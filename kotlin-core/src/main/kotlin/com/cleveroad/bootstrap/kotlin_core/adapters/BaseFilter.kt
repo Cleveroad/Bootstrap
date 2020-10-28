@@ -129,7 +129,7 @@ abstract class BaseFilter<T>(highlightColor: Int) : Filter() {
 
     internal interface FilterableAdapter<T> {
         fun getNonFilteredCount(): Int
-        fun getNonFilteredItem(position: Int): T
+        fun getNonFilteredItem(position: Int): T?
         fun notifyDataSetChanged()
         fun withFilter(filter: BaseFilter<T>?)
         fun highlightFilteredSubstring(text: String): Spannable
