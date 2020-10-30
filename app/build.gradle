@@ -9,11 +9,14 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion as String
     defaultConfig {
         applicationId "com.cleveroad.bootstrap.kotlin"
-        minSdkVersion 21
+        minSdkVersion 19
         targetSdkVersion rootProject.ext.compileSdkVersion as Integer
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        ndk {
+            abiFilters "armeabi-v7a", "x86"
+        }
     }
 
     buildTypes {

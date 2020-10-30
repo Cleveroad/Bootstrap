@@ -47,6 +47,11 @@ class FFMpegActivity : AppCompatActivity(), View.OnClickListener {
         setClickListeners(bPickFile, bPickOverlayFile, bCreateThumbnails, bCompressVideo)
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        CompressVideoBuilder.with(this).cancel()
+    }
+
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         if (resultCode == Activity.RESULT_OK) {

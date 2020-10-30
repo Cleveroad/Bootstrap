@@ -48,7 +48,7 @@ abstract class BaseArrayAdapter<T>(context: Context) : ArrayAdapter<T>(context, 
 
     override fun getNonFilteredCount() = super.getCount()
 
-    override fun getNonFilteredItem(position: Int) = super.getItem(position)
+    override fun getNonFilteredItem(position: Int) : T? = super.getItem(position)
 
     /**
      * Adds the specified items at the end of the array.
